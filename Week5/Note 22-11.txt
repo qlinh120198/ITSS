@@ -1,0 +1,11 @@
+- Dong bo
+A gọi B r A chờ
+B tính toán
+B ra KQ, trả về cho A tiếp tục luồng hđ
+
+- Không đồng bộ:
+A goi B, A tiep tục công việc
+B tính toán
+B ra KQ, trả về cho A, tùy A xử lý
+
+- BTVN: Doc bai 11,code

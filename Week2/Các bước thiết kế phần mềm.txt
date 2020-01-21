@@ -1,0 +1,20 @@
+- B1: Phân tích yêu cầu
+	+ Xác định yêu cầu phần mềm
+	+ Yêu cầu chức năng: báo thức, hẹn giờ,...
+	+ Yêu cầu phi chức năng, gần hơn vs hiệu năng (nhanh, giao diện đẹp mắt)
+
+- B2: Thiết kế kiến trúc phần mềm (Thiết kế tổng quan)
+	+ Thiết kế tổng quan (xem mô hình kiến trúc nào, định nghĩa chung)
+
+- B3: Thiết kế chi tiết
+	+ Chi tiết hóa các khối lớn đã đc định nghĩa ở B2 (đầu vào, đầu ra,...)
+
+- B4: Xây dựng phần mềm
+	+ Thực thi các thành phần phần mềm
+	+ Unit test (viết xong thành phần, ktra thành phần đó đã đáp ứng yêu cầu chưa), database test
+
+- B5: Tích hợp phần mềm
+	+ Kiểm thử tích hợp các thành phần phần mềm
+
+- B6: Kiểm thử chất lượng phần mềm
+	+ Kiểm tra chất lượng phần mềm

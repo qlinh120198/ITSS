@@ -1,0 +1,9 @@
+- Edit: Check merchandise -> Nhập kho
+- Control information of order -> manage ... 
+- Thêm 1 actor hệ thống kho chỗ Nhập kho
+- Thêm 2 activity diagram
+
+18/10
+Trong sequence, ten tac nhan gom ":" + "underline"
+* Create sale order
+- Lay list mat hang tu database 

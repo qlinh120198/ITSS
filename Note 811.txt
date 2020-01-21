@@ -1,0 +1,16 @@
+- Phan biet phan tich thiet ke
+Phan tich truoc thiet ke, tao tho 
+- Kết tập tái sử dụng object
+Kế thừa tái sử dụng class
+- Operation vs Method
+- Dependency & Association
+- Association vs Composition
+Aggregation: strong association
+Composition: strong aggregation
+
+- Association vs Aggregation
+Aggregation: cai nay la 1 phan cua cai kia
+Association: mang tinh chat su dung,vd: lop hoc va hoc sinh trong lop
+
+HW: Class design
+Bieu do lop thiet ke va thiet ke lop chi tiet 

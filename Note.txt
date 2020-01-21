@@ -1,0 +1,15 @@
+- Phan tich yeu cau phan mem
+- Thiet ke phan mem 
+	+ Thiet ke tong quan
+	+ Thiet ke chi tiet
+- Xay dung phan mem
+- Tich hop phan mem
+- Kiem thu
+
+- Thuc thi usecase (Usecase realization): Mo ta cach thuc 1 usecase dc cai dat ntn trong mo hinh thiet ke, gom 2 thanh phan chinh
+- Vẽ biểu đồ tương tác trc biểu đồ lớp (input của biểu đồ lớp là biểu đồ tương tác)
+
+BT 11/10:
+HW04
+Ve bieu do lop phan tich, bieu do tuong tac (1 usecase co 3 bieu do tuong tac tuong ung voi 3 luồng, vd usecase 1 dung 3 sequence thi usecase 2 dung 3 communication)
+3 luồng (luồng thông thường, luồng đặc biệt, luồng ngoại lệ)

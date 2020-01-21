@@ -1,0 +1,38 @@
+- System / Device interface design
++ Tao package (subsystem gom IDatabase va MySQLDB + cac class nao do)
+(subsystem gom 1 interface va class de thuc hien interface do)
++ Tao interface (eg: IDatabase)
++ Tao 1 class (eg: MySQLDB)
+public class MySQLDB implements IDatabase
+Override tat ca phuong thuc, thuc thi tat ca phuong thuc cua Interface
+Chia nho cac phuong thuc thanh cac class, 1 class co the co nhieu phuong thuc
+eg: class A1 cho phuong thuc getConnection(), getOrder(), A1 co the chua all cac phuong thuc ve hoa don, A2 ve product
+Then, trong IDatabase :
+public void getConnection() {
+	new A1.getConnection();
+}
+
+
+eg: form Login (trong package khac)
+public class Login {
+	private IDatabase db = new MySQLDB();
+				   (co the sua thanh OracleDB) 	
+	public void test() {
+		db.getConnection();
+		db.getProduct(1);
+	}
+}
+
+* Co the tao them 1 subsystem
+eg: package tuan8.mysql giao tiep vs mysql
+package tuan8.oracle giao tiep vs oracle (cac phuong thuc khac cua rieng oracle)
+2 subsystem thuc thi interface
+
+* HW05: Lam thiet ke giao dien
+Thiet ke giao dien cho usecase ca nhan
+Gom 4 phan:
+1. Chuan hoa (ca nhom lam)
+2. Voi tung usecase, moi nguoi phai ve hinh anh 
+3. Ve so do chuyen doi man hinh (ve tat ca moqup cho cac man hinh de den man hinh usecase cua minh)
+VD: Tu man hinh chinh an nut nao de den duoc man hinh usecase cua minh
+4. Dac ta man hinh
